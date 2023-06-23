@@ -59,7 +59,7 @@ const Login = () => {
                   <form onSubmit={formik.handleSubmit}>
                     <h3 style={{'textAlign':'center'}} className="mb-10 text-2xl font-bold font-heading">
                       {/* Header */}
-                      Login to your Accountis
+                      Login to your Accountisa
                       {appErr || serverErr? <div className="text-red-800">
                   {serverErr} {appErr} -invalid login adil
                   </div>:null}
