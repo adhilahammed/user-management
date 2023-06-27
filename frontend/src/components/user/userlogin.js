@@ -61,7 +61,7 @@ const Login = () => {
                       {/* Header */}
                       Login to your Accountisa
                       {appErr || serverErr? <div className="text-red-800">
-                  {serverErr} {appErr} -invalid login credentials
+                  {serverErr} {appErr} -invalid login credent
                   </div>:null}
                     </h3>
                    
